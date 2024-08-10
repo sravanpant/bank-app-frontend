@@ -24,9 +24,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="font-jakarta sticky top-0 z-50">
+    <div className="font-jakarta sticky top-0 z-50 lg:mt-8 ">
       <div className="w-full flex justify-center">
-        <div className="z-10 backdrop-blur-lg flex justify-between p-5 items-center w-full lg:max-w-[70%]">
+        <div className="z-10 backdrop-blur-xl lg:backdrop-blur-0 flex justify-between p-5 items-center w-full lg:max-w-[80%]">
           <Link href={"/"}>
             <Image src={logo} alt="logo" className="w-[110px] h-6 " />
           </Link>

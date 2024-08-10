@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="p-5 font-jakarta space-y-1">
+    <div className="mx-10 my-5 lg:ml-[10%]  font-jakarta space-y-1">
       <Image src={logo} alt="logo" className="my-1 w-[70px] h-4" />
       <div className="text-sm text-gray-400 py-1">
         Copyright © 2024 Cardo Inc. All rights reserved.
